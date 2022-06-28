@@ -1,0 +1,22 @@
+<!--
+ * @Author: Exarlos
+ * @Date: 2022-06-19 00:12:51
+ * @LastEditors: Exarlos
+ * @LastEditTime: 2022-06-19 00:12:52
+ * @Description: 世界上没有低级的法术,只有低级的法师!
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Test users - Moe Python Webapp</title>
+</head>
+<body>
+    <h1>All users</h1>
+    {% for u in users %}
+    <p>{{ u.name }} / {{ u.email }}</p>
+    {% endfor %}
+</body>
+</html>
